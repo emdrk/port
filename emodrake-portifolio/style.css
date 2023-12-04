@@ -355,3 +355,36 @@ iframe {
     position: relative;
     margin-left: 120px;
 }
+
+/* Estilos para a seção de contato */
+.contato {
+    max-width: 600px;
+    margin: 0 auto; /* Centraliza o bloco de contato */
+    text-align: center;
+    margin-top: 50px; /* Espaçamento superior */
+    margin-bottom: 10vh;
+}
+
+.title-contato {
+    font-size: 50px;
+    color: #FFF;
+    font-family: 'Bulzing';
+    font-weight: lighter;
+    margin-bottom: 5vh;
+}
+
+.redes {
+    font-size: 30px;
+    color: #FFF;
+    margin: 10px 0;
+    font-family: 'TekturNarrow-Regular';
+}
+
+/* Adicionado estilo para a linha decorativa */
+.decorative-line-contato {
+    width: 100%; /* Largura igual à largura do bloco de contato */
+    height: 4px;
+    background-color: #14CFFE; /* Cor da linha */
+    margin-top: 10px; /* Espaçamento superior da linha */
+    margin-bottom: 20px; /* Espaçamento inferior da linha */
+}
