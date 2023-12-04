@@ -23,3 +23,4 @@ document.addEventListener("DOMContentLoaded", function () {
 function scrollToContent() {
     document.getElementById('content').scrollIntoView({ behavior: 'smooth' });
 }
+
