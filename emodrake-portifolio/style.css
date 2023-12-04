@@ -230,7 +230,7 @@ body {
     grid-template-columns: 1fr;
     gap: 20px;
     max-width: 900px;
-    margin-bottom: 25vh;
+    margin-bottom: 10vh;
     position: relative;
 }
 
@@ -297,6 +297,7 @@ body {
 /* videos editados por mim */
 .videos-ed {
     max-width: 1200px;
+    margin-top: 10vh;
     margin-bottom: 10vh;
     overflow: hidden;
     position: relative;
