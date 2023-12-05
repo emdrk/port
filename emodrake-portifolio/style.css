@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
 @font-face {
     font-family: 'GlichGloblin';
     src: url('fonts/GlitchGoblin-2O87v.ttf');
@@ -294,7 +298,9 @@ body {
     width: 200px;
     height: auto;
     margin-right: 3rem;
+    transition: transform 0.3s ease; /* Reduz a duração da transição para 0.3 segundos */
 }
+
 
 .trabalhos-text {
     display: flex;
@@ -426,4 +432,31 @@ iframe {
     background-color: #14CFFE; /* Cor da linha */
     margin-top: 10px; /* Espaçamento superior da linha */
     margin-bottom: 20px; /* Espaçamento inferior da linha */
+}
+
+.redes a {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza horizontalmente */
+    text-decoration: none;
+    color: #ffffff; /* Cor normal do texto */
+    transition: color 0.3s ease; /* Transição suave na cor */
+}
+
+.redes a:hover {
+    color: #a47ace; /* Cor alterada ao passar o mouse */
+}
+
+/* Ícone estilizado */
+.icon {
+    margin-right: 5px;
+    width: 20px; /* Tamanho do ícone */
+    height: 20px;
+}
+
+/* Adicione algum espaço entre o ícone e o texto */
+.redes img {
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
 }
