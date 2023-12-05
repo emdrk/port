@@ -215,7 +215,6 @@ body {
     content: '';
 }
 
-
 .content-programas {
     display: grid;
     grid-template-columns: 1fr;
@@ -223,39 +222,43 @@ body {
     max-width: 1000px;
     margin-bottom: 20vh;
     margin-left: 10px;
-}
+  }
 
-.programas-container {
+  .programas-container {
     display: flex;
     align-items: center;
-}
+  }
 
-.programas {
+  .programas {
     text-align: left;
     font-family: 'Bulzing';
     font-size: 50px;
     font-weight: lighter;
     margin-bottom: 4vh;
-}
+  }
 
-.decorative-line-prog {
+  .decorative-line-prog {
     width: 4px;
     height: 100%;
     background-color: #00E1FF;
     margin: 0 20px;
-}
+  }
 
-.programas-images {
+  .programas-images {
     display: flex;
     align-items: center;
-}
+  }
 
-.programas-images img {
+  .programas-images img {
     width: 100px;
     height: 100px;
     margin-right: 110px;
-}
+    transition: transform 0.5s ease; /* Aumenta a duração da transição para 0.5 segundos */
+  }
 
+  .programas-images img:hover {
+    transform: scale(1.2);
+  }
 
 
 
